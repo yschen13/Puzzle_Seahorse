@@ -4,7 +4,13 @@
 * Need to match the seahorse tail and head on the tile edge
 * Four different seahorses
 * One tile can be placed at any position in a 3-by-3 grid with four orientations.
+* Total possibility: 9!*4^9 ~= 100 billion
+* Only ONE correct pattern
 
-![Before](./Puzzle_before.jpg=250x)
+<img src="./Puzzle_before.jpg" alt="drawing" width="400"/>
 
-![After](./Puzzle_after.jpg)
+### [Answer](./Puzzle_after.jpg)
+
+
+### Script:
+* Main.m: a backward searching algorithm from the mid position
