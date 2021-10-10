@@ -13,4 +13,5 @@
 
 
 ### Script:
-* Main.m: a backward searching algorithm from the mid position
+* Main.m: 
+    * a backward searching algorithm from the middle position
